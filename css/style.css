@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin:0;
+	padding: 0;
+}
+ul,ol{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+header{
+	padding: 10px 0;
+}
+header .logo{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #44bfe1;
+}
+header .logo a{
+
+}
+header .logo a img{
+    height: 80px;
+    width: 80px;
+}
+header nav ul{
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #44bfe1;
+    display: block;
+    padding: 15px 30px;
+    transition: .3s;
+}
+header nav ul li a:hover{
+	color: #04a991;
+}
+.banner-section{
+	margin-bottom: 20px;
+}
+.banner-section img{
+	width: 100%;
+	border: 2px solid #44bfe1;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.about-section h1{
+	margin: 20px 0;
+	font-size: 45px;
+	color: #44bfe1;
+}
+.about-section p{
+	line-height: 1.5;
+	color: #444;
+}
+.blog-section .post{
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.blog-section .post .artical{
+	padding: 15px;
+	box-shadow:0px 20px 60px #00000017;
+}
+.blog-section .post .artical img{
+	width: 100%;
+}
+.blog-section .post .artical h1{
+	color: #44bfe1;
+	margin: 10px 0;
+}
+.blog-section .post .artical p{
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+.about-section video{
+	width: 100%;
+	height: 700px;
+	margin: 10px 0;
+}
+.contact-section form{
+	width: 70%;
+	margin-bottom: 50px;
+}
+.contact-section label{
+	display: block;
+	margin: 15px 0;
+	font-size: 18px;
+	color: #ddd;
+}
+.contact-section textarea,
+.contact-section input{
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	border: none;
+	border: 1px solid #44bfe1;
+}
+.contact-section h1{
+	font-size: 45px;
+	font-weight: bold;
+	color: #44bfe1;
+	margin: 25px 0;
+	margin-bottom: 50px;
+}
+.contact-section input[type="submit"]{
+	width: auto;
+	padding: 15px 30px;
+	color: #44bfe1;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: .3s ease-in-out;
+	cursor: pointer;
+}
+.contact-section input[type="submit"]:hover{
+	background-color: #44bfe1;
+	color: #fff;
+}
